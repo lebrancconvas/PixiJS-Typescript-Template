@@ -1,0 +1,7 @@
+import * as PIXI from 'pixi.js';
+import { config } from '../config';
+
+export const app = new PIXI.Application<HTMLCanvasElement>({
+  width: config.width,
+  height: config.height
+});

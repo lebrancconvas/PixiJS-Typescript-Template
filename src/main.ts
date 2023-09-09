@@ -14,6 +14,7 @@ app.ticker.add((deltaTime: number) => loop(deltaTime));
 function loop(deltaTime: number) {
   // Update.
 
+
   // Render.
 
 

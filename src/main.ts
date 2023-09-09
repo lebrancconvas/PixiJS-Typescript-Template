@@ -18,4 +18,5 @@ function loop(deltaTime: number) {
 
 
   console.log(`Delta Time: ${deltaTime}`);
+  console.log(`FPS: ${app.ticker.FPS}`);
 };

@@ -1,9 +1,11 @@
 import { app } from "../renderer";
 
-export function loop(deltaTime: number) {
+export function loop(deltaTime: number, isMonitor: boolean) {
 
 
   // Monitoring.
-  console.log(`Delta Time: ${deltaTime}`);
-  console.log(`FPS: ${app.ticker.FPS}`);
+  if(isMonitor) {
+    console.log(`Delta Time: ${deltaTime}`);
+    console.log(`FPS: ${app.ticker.FPS}`);
+  }
 };

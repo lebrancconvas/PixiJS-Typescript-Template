@@ -1,4 +1,4 @@
-import { app } from "../renderer";
+import { PIXI, app } from "../renderer";
 
 export function loop(deltaTime: number, isMonitor: boolean) {
   // Animation Code.

@@ -1,4 +1,5 @@
-import { PIXI, app } from './renderer';
+import * as PIXI from 'pixi.js';
+import { app } from './renderer';
 import { loop } from './system';
 
 // Render PIXI app on canvas element.

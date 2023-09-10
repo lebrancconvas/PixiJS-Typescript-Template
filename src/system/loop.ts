@@ -1,6 +1,7 @@
 import { app } from "../renderer";
 
 export function loop(deltaTime: number, isMonitor: boolean) {
+  // Animation Code.
 
 
   // Monitoring.
